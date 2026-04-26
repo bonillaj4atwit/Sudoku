@@ -1,31 +1,76 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    background-color: rgb(242, 200, 227);
 }
 hr {
     width: 500px;   
 }
 
 #errors {
-    color: coral;
+    color: rgb(234, 82, 82);
 }
 
 #board {
     width: 450px;
     height: 450px;
 
-    background-color: lightblue;
+    background-color: rgb(251, 181, 208);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgb(239, 165, 202);
+
+    /* text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 #digits {
     width: 450px;
     height: 50px;
 
-    background-color: lightblue;
+    background-color: rgb(235, 175, 184);
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+.number {
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgb(236, 119, 178);
+    margin: 2px;
+
+    /* text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.number-selected {
+    background-color: plum;
+}
+
+.tile-start {
+    background-color: rgb(251, 184, 194);
+}
+
+.horizontal-line {
+    border-bottom: 1px solid rgb(236, 119, 178);
+
+}
+
+.vertical-line {
+    border-right: 1px solid rgb(236, 119, 178);
 }
