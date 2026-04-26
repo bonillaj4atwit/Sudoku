@@ -77,9 +77,9 @@ hr {
 
 .flower {
     position: fixed; /* keeps the flowers pinned to the viewport corners even if the user scrolls! */
-    width: 200px; /* adjust as needed */
+     width: 200px; /* adjust as needed */
     pointer-events: none; /* allows clicks to pass through */
-}
+} 
 
 .flower-top-left {
     top: 0;
@@ -94,4 +94,37 @@ hr {
 .flower-bottom-left {
     bottom: 0;
     left: 0;
+} 
+
+.instructions-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    background-color: rgb(251, 181, 208);
+    border: 1px solid rgb(236, 119, 178);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    overflow: hidden;
+
+    /* collapsed by default */
+    max-height: 30px;
+    transition: max-height 0.4s ease;
+}
+
+.instructions-box:hover {
+    max-height: 300px; /* expand to show full instructions on hover */
+}
+
+.instructions-title {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(100, 40, 80);
+    line-height: 1.5;
+}
+
+.instructions-content {
+    margin: 4px 0;
 }
