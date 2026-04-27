@@ -63,6 +63,8 @@ function setGame() {
             document.getElementById("board").append(tile);
         }
     }
+
+    // figure out how to make a "congrats on winning" message!
 }
 
 function selectNumber() {
