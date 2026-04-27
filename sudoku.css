@@ -1,14 +1,25 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Sofia", sans-serif;
     text-align: center;
     background-color: rgb(242, 200, 227);
+    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/026C.jpg');
+    
 }
 hr {
     width: 500px;   
 }
 
+h1 {
+    color: rgb(251, 181, 208);
+    font-family: cursive;
+    font-size: 45px;
+    border: 3px white;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(242, 200, 227);
+}
+
 #errors {
-    color: rgb(234, 82, 82);
+    color: white;
 }
 
 #board {
